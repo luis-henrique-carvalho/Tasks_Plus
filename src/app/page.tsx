@@ -6,7 +6,7 @@ import heroImg from "../assets/hero.png";
 
 export default function Home() {
   return (
-    <div className=" bg-l-bg w-full h-screen flex flex-col justify-center  items-center">
+    <div className=" bg-l-bg  w-full h-[calc(100vh-82px)] flex flex-col justify-center  items-center">
       <main>
         <div className="flex flex-col items-center justify-center">
           <Image
