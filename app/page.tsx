@@ -1,8 +1,7 @@
 // Components
 import Image from "next/image";
-import Link from "next/link";
 // Assets
-import heroImg from "../assets/hero.png";
+import heroImg from "../public/img/hero.png";
 
 export default function Home() {
   return (
