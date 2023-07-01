@@ -17,12 +17,20 @@ const Header: NextPage<Props> = ({}) => {
             </h1>
           </Link>
           {session?.user && (
-            <Link
-              href="/client/dashboard"
-              className=" bg-white text-l-bg py-1 rounded px-3 mx-4"
-            >
-              <h1 className="">Meu painel</h1>
-            </Link>
+            <>
+              <Link
+                href="/client/dashboard"
+                className=" bg-white text-l-bg py-1 rounded px-3 mx-4"
+              >
+                <h1 className="">Meu painel</h1>
+              </Link>{" "}
+              <Link
+                href="/server"
+                className=" bg-white text-l-bg py-1 rounded px-3 mx-4"
+              >
+                <h1 className="">Servidor</h1>
+              </Link>
+            </>
           )}
         </nav>
         <SinginButton />

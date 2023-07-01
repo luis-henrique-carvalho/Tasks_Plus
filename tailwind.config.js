@@ -14,6 +14,7 @@ module.exports = {
         "l-bg": "#0f0f0f",
         "l-w-500": "#fafafa",
         "l-sec": "#ea3140",
+        "l-ter": "#3183ff",
       },
       maxWidth: {
         28: "28rem",
